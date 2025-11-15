@@ -7,11 +7,11 @@ The project directly tackles the challenge of information overload by transformi
 #Images
 
 Searching:
-https://ibb.co/5CxVxqm
+https://ibb.co/35nwFfc2
 
 Results:
-https://ibb.co/3yjBdhLF
-
+[https://ibb.co/3yjBdhLF
+](https://ibb.co/dwSYQ3q6)
 ---
 
 ##  Core Solution & Achievements
