@@ -4,9 +4,9 @@
 
 The project directly tackles the challenge of information overload by transforming chaotic, multi-platform chatter into actionable, live data. It is built for speed, resilience, and superior user experience, making it a professional-grade analytics tool.
 
-#Live Link:(https://an-ear-out-live.vercel.app/)
+**Live Link:(https://an-ear-out-live.vercel.app/)
 
-#Images
+**Images
 
 Searching:
 https://ibb.co/35nwFfc2
