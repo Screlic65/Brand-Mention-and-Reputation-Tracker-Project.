@@ -12,8 +12,7 @@ Searching:
 https://ibb.co/35nwFfc2
 
 Results:
-[https://ibb.co/3yjBdhLF
-](https://ibb.co/dwSYQ3q6)
+https://ibb.co/svBqMwnb
 ---
 
 ##  Core Solution & Achievements
