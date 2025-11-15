@@ -6,7 +6,6 @@ The project directly tackles the challenge of information overload by transformi
 
 https://ibb.co/mVXv6xSh
 
-https://github.com/Screlic65/Brand-Mention-and-Reputation-Tracker-Project./blob/main/Screenshot%20(63).png
 ---
 
 ##  Core Solution & Achievements
