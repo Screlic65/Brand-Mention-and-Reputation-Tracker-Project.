@@ -4,8 +4,7 @@
 
 The project directly tackles the challenge of information overload by transforming chaotic, multi-platform chatter into actionable, live data. It is built for speed, resilience, and superior user experience, making it a professional-grade analytics tool.
 
-[https://ibb.co/mVXv6xSh](https://ibb.co/VpJc3G7y)
-
+https://ibb.co/3yjBdhLF
 ---
 
 ##  Core Solution & Achievements
