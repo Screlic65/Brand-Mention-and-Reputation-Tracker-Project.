@@ -4,8 +4,7 @@
 
 The project directly tackles the challenge of information overload by transforming chaotic, multi-platform chatter into actionable, live data. It is built for speed, resilience, and superior user experience, making it a professional-grade analytics tool.
 
-[![An Ear Out Screenshot](https://i.imgur.com/GzF4E9H.png)](https://an-ear-out.vercel.app/) 
-*Note: This is a placeholder image. Replace this URL with a screenshot of your live, finished application.*
+[![An Ear Out Screenshot]([https://i.imgur.com/GzF4E9H.png](https://ibb.co/mVXv6xSh))]() 
 
 ---
 
