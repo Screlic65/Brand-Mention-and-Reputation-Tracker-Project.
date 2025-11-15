@@ -4,6 +4,8 @@
 
 The project directly tackles the challenge of information overload by transforming chaotic, multi-platform chatter into actionable, live data. It is built for speed, resilience, and superior user experience, making it a professional-grade analytics tool.
 
+
+
 #Images
 
 Searching:
@@ -15,8 +17,6 @@ Results:
 ---
 
 ##  Core Solution & Achievements
-
-We successfully met and exceeded the challenge requirements by focusing on resilient architecture and superior UX.
 
 | Objective | Status | Implementation Detail |
 | :--- | :--- | :--- |
@@ -30,8 +30,6 @@ We successfully met and exceeded the challenge requirements by focusing on resil
 
 ##  Final UI/UX Design: The Analytical Cockpit
 
-The final design was refined to maximize usability and visual impact, separating controls from content.
-
 *   **Streaming Feed:** The central panel automatically populates mention cards as data arrives, eliminating the frustrating 10-second loading screen.
 *   **Action Center (Left Panel):** Features independently scrollable sections for **Trending Topics** (clickable for instant search discovery) and **Recent Searches**.
 *   **Analysis Panel (Right Panel):** Features the high-level insights: The **Overall Sentiment Score** and the **24-Hour Activity Trend Line Chart** (Vertical Timeline).
@@ -41,7 +39,6 @@ The final design was refined to maximize usability and visual impact, separating
 
 ##  Technology Stack & Architecture
 
-The application uses a modern, high-performance, and resilient decoupled architecture.
 
 ### **Backend (The Data Engine)**
 
@@ -67,30 +64,29 @@ To get a local copy up and running, follow these simple steps.
 -   Python 3.9+
 -   Node.js and npm
 -   A working NewsAPI key
+-   A working GNEWs API key
+-   X(Twitter) apikey
+-   although you can use it with a single api key also. just remove one of those try... catch blocks from the specifc code. 
 
 ### **Backend Setup**
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name/backend
-    ```
-2.  **Create a virtual environment and install dependencies:**
+1.  **Create a virtual environment and install dependencies:**
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     pip install -r requirements.txt # (Ensure your requirements.txt lists all necessary libs)
     ```
-3.  **Set up your environment variables:**
+2.  **Set up your environment variables:**
     -   Create a file named `.env` in the `backend` directory.
     -   Add your NewsAPI key:
         ```
         NEWS_API_KEY="YOUR_API_KEY_HERE"
         ```
-4.  **Run the backend server:**
+3.  **Run the backend server:**
     ```sh
     python -m uvicorn main:app --reload 
     ```
     The backend will be running at `http://localhost:8000`.
+    once it's running, it'll dispaly a json message: {"detail":"Not Found"}
 
 ### **Frontend Setup**
 1.  **Navigate to the frontend directory and install dependencies:**
