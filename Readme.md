@@ -18,12 +18,14 @@ Results:
 
 ##  Core Solution & Achievements
 
-| Objective | Implementation Detail |
-| :--- | :--- | :--- |
 | **Aggregation of Mentions** | Aggregates from **9 diverse sources:** NewsAPI, Reddit, Hacker News, Dev.to, Stack Exchange, and major Indian news RSS feeds. |
+
 | **Sentiment Analysis** | Uses the superior **RoBERTa model** for nuanced Positive/Negative/Neutral analysis, displayed as a clear **Overall Sentiment Score (1-10)**. |
+
 | **Topic Clustering** | Generates a rolling list of **20 Trending Topics** based on frequency analysis across the global pool of conversations. |
+
 | **Highlight Spikes / Trends** | Features a **24-Hour Activity Trend Line Chart** showing conversation density over time, allowing marketers to easily spot peak hours. |
+
 | **Real-Time Monitoring** | Data is populated in real-time using IbSockets, creating a dynamic user experience where results stream in as the backend finds them. |
 
 ---
