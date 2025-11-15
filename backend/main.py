@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from transformers import pipeline
-import tweepy 
+
 
 # --- NLTK and Initializations ---
 print("Checking for NLTK stopwords...")
@@ -46,31 +46,6 @@ global_word_corpus = deque(maxlen=2000)
 
 
 # --- DATA FETCHING FUNCTIONS ---
-def fetch_x_mentions(brand_name: str, token: str):
-    mentions = []
-    if not token:
-        print("X API: Bearer token missing. Skipping fetch.")
-        return mentions
-    
-    try:
-        client = tweepy.Client(token, wait_on_rate_limit=False)
-        query = f'"{brand_name}" lang:en -is:retweet'
-        response = client.search_recent_tweets(query=query, max_results=10)
-        tweets = response.data or []
-        
-        for tweet in tweets:
-            text = tweet.text
-            sentiment = sentiment_pipeline(text)[0]['label'].upper()
-            mentions.append({
-                "platform": "X", "source": "X", "text": text, 
-                "sentiment": sentiment, "url": f"https://twitter.com/anyuser/status/{tweet.id}",
-                "timestamp": datetime.datetime.now().isoformat()
-            })
-    except tweepy.TooManyRequests:
-        print("X API: Rate limit hit. Skipping.")
-    except Exception as e:
-        print(f"ERROR fetching from X API: {e}")
-    return mentions
 
 def fetch_news_api(brand_name, api_key, gnews_key):
     mentions = []
