@@ -63,7 +63,7 @@ This project was built under strict hackathon constraints, requiring complex arc
 
 ##  Deployment
 
-The final application will be deployed on vercel(frontend) and render(backend)
+The final application is deployed on vercel(frontend) and railway(backend)
 
 ---
 
