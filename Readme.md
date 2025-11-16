@@ -5,6 +5,7 @@
 The project directly tackles the challenge of information overload by transforming chaotic, multi-platform chatter into actionable, live data. It is built for speed, resilience, and superior user experience, making it a professional-grade analytics tool.
 
 ### Live Link:(https://an-ear-out-live.vercel.app/)
+##Initial load of the video is slow due to cold starts as the railway deployment goes into sleep mode after specific periods of inactivity
 
 ### Images
 
