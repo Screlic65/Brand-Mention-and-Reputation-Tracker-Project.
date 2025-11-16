@@ -28,6 +28,9 @@ https://ibb.co/svBqMwnb
 
 | **Real-Time Monitoring** | Data is populated in real-time using IbSockets, creating a dynamic user experience where results stream in as the backend finds them. |
 
+| **Interactive User Experience** | Users can easily navigate around different functionalities such as searching top suggested words, checking history again, redirecting to the link, check sentiment on the fly |
+
+
 ---
 
 ##  Final UI/UX Design: The Analytical Cockpit
